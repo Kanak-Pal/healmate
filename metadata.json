@@ -1,0 +1,8 @@
+{
+  "name": "HealMate",
+  "description": "HealMate: Your AI-Powered Personal Health Companion. Features include medical image analysis, intelligent symptom chatting, and holistic health tracking.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ]
+}
