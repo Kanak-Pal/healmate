@@ -11,6 +11,7 @@ import { MentalWellness } from './components/MentalWellness';
 import { LabServices } from './components/LabServices';
 import { HealthJournal } from './components/HealthJournal';
 import { Community } from './components/Community';
+import { HeartRateMonitor } from './components/HeartRateMonitor';
 import { ViewState, Medication } from './types';
 import { Menu, Stethoscope, Heart } from 'lucide-react';
 
@@ -63,6 +64,8 @@ const App: React.FC = () => {
         return <HealthJournal />;
       case 'community':
         return <Community />;
+      case 'heart-rate':
+        return <HeartRateMonitor />;
       default:
         return <Dashboard darkMode={darkMode} />;
     }

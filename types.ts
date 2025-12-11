@@ -1,4 +1,4 @@
-export type ViewState = 'dashboard' | 'chat' | 'analysis' | 'reports' | 'medications' | 'diet' | 'locator' | 'mental-health' | 'journal' | 'labs' | 'community';
+export type ViewState = 'dashboard' | 'chat' | 'analysis' | 'reports' | 'medications' | 'diet' | 'locator' | 'mental-health' | 'journal' | 'labs' | 'community' | 'heart-rate';
 
 export interface ChatMessage {
   id: string;

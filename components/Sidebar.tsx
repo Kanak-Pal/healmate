@@ -15,6 +15,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentView, onViewChange, isO
   const menuItems: { id: ViewState; label: string; icon: React.ReactNode }[] = [
     { id: 'dashboard', label: 'Dashboard', icon: <Activity size={20} /> },
     { id: 'chat', label: 'Health Assistant', icon: <MessageSquare size={20} /> },
+    { id: 'heart-rate', label: 'Heart Rate', icon: <Heart size={20} /> },
     { id: 'analysis', label: 'Image Analysis', icon: <ScanLine size={20} /> },
     { id: 'medications', label: 'Medications', icon: <Pill size={20} /> },
     { id: 'diet', label: 'Diet & Food', icon: <Utensils size={20} /> },
